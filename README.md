@@ -87,4 +87,4 @@ Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credential
 **Post conditions:**
 You have successfully logged in as an administrator
 
-**Hint** Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
+**Hint:** Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
