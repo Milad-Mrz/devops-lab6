@@ -68,30 +68,23 @@ CI Server
 **Initial conditions:** None
 
 **Test Steps:**
-
-1. Go to http://192.168.33.9/gitlab
+Go to http://192.168.33.9/gitlab
 
 **Post conditions:**
-
 - GitLab is accessible at the indicated URL
 - It asks to enter a password for the root credentials
 
 5. **Set a password for the admin user:**
-
-   1. Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credentials.
+Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credentials.
 
 ### Test Case
-
 **Initial conditions:** You have successfully entered a password for the root credentials
-
 **Test Steps:**
 
 1. Go to http://192.168.33.9/gitlab
 2. Log in using the username "root" and the password entered in the previous step.
 
 **Post conditions:**
+You have successfully logged in as an administrator
 
-- You have successfully logged in as an administrator
-```
-
-Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
+**Hint** Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
