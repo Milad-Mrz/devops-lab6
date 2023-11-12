@@ -1,5 +1,5 @@
 # Lab 6: Reproducibility
-- CI Server
+CI Server
   
 ## Asset Composition
 - A Vagrant VM specification (i.e., Vagrant file)
