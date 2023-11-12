@@ -18,8 +18,6 @@ CI Server
 4. Ansible (v 2.7.5 or higher)
 
 ## Guidelines
-<br> <br>
-
 1. **Get to the working directory:**
    ```bash
    cd ~/<git_root_folder>/devops/pipeline/s2-automate-build/integration-server
@@ -64,34 +62,33 @@ CI Server
    sudo gitlab-ctl restart unicorn
    sudo gitlab-ctl restart
    ```
-   ```plaintext
-  Test Case 1:
-  
-  Initial conditions: None
-  
-  Test Steps:
-  Go to http://192.168.56.9/gitlab
-  
-  Post conditions:
-  - GitLab is accessible at the indicated URL
-  - It asks to enter a password for the root credentials
-  
-   ```
+    ```plaintext
+    Test Case 1:
+    Initial conditions: None
+    
+    Test Steps:
+    Go to http://192.168.56.9/gitlab
+    
+    Post conditions:
+    - GitLab is accessible at the indicated URL
+    - It asks to enter a password for the root credentials
+    
+    ```
 
 5. **Set a password for the admin user:**
    
-  Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credentials.
+   - Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credentials.
 
-   ```plaintext
-  Test Case 2:
-  Initial conditions: You have successfully entered a password for the root credentials
-  Test Steps:
-  
-  1. Go to http://192.168.56.9/gitlab
-  2. Log in using the username "root" and the password entered in the previous step.
-  
-  Post conditions:
-  You have successfully logged in as an administrator
-   ```
+    ```plaintext
+    Test Case 2:
+    Initial conditions: You have successfully entered a password for the root credentials
+    
+    Test Steps:
+    1. Go to http://192.168.56.9/gitlab
+    2. Log in using the username "root" and the password entered in the previous step.
+    
+    Post conditions:
+    - You have successfully logged in as an administrator
+    ```
 
 **Hint:** Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
