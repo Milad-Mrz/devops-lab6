@@ -38,7 +38,7 @@ CI Server
    with:
 
    ```plaintext
-   external_url 'http://192.168.33.9/gitlab'
+   external_url 'http://192.168.56.9/gitlab'
    ```
 
    and replace:
@@ -68,7 +68,7 @@ CI Server
 **Initial conditions:** None
 
 **Test Steps:**
-Go to http://192.168.33.9/gitlab
+Go to http://192.168.56.9/gitlab
 
 **Post conditions:**
 - GitLab is accessible at the indicated URL
@@ -81,7 +81,7 @@ Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credential
 **Initial conditions:** You have successfully entered a password for the root credentials
 **Test Steps:**
 
-1. Go to http://192.168.33.9/gitlab
+1. Go to http://192.168.56.9/gitlab
 2. Log in using the username "root" and the password entered in the previous step.
 
 **Post conditions:**
