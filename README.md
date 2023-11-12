@@ -64,7 +64,7 @@ CI Server
    sudo gitlab-ctl restart unicorn
    sudo gitlab-ctl restart
    ```
-  ```
+   ```plaintext
   Test Case 1:
   
   Initial conditions: None
@@ -76,13 +76,13 @@ CI Server
   - GitLab is accessible at the indicated URL
   - It asks to enter a password for the root credentials
   
-  ```
+   ```
 
 5. **Set a password for the admin user:**
    
   Enter a password (referred to as `$YOUR_PASSWORD` later) for the root credentials.
 
-  ```
+   ```plaintext
   Test Case 2:
   Initial conditions: You have successfully entered a password for the root credentials
   Test Steps:
@@ -92,6 +92,6 @@ CI Server
   
   Post conditions:
   You have successfully logged in as an administrator
-  ```
+   ```
 
 **Hint:** Feel free to use and modify this Markdown file for your GitHub repository's `README.md`.
